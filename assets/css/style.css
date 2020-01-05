@@ -3,9 +3,10 @@
 body { 
   padding-top: 65px;
   /* overflow:hidden; 
-  overflow-x: hidden;
+  
   overflow-y: hidden;
  */
+ overflow-x: hidden;
 }  
 
 

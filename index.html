@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Welcome | Destiny Place</title>
+    <!-- <link rel="icon" href="assets/img/logo-de.png"> -->
+
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+    <div id="navbar" class="container">
+        <a href="#default" id="logo" >CompanyLogo</a>
+        <div id="navbar-right">
+            <a class="navbar-link" href="#in">Industries</a>
+            <a class="navbar-link" href="#about">Functions</a>
+            <a class="navbar-link" href="#contact">Featured Insights</a>
+            <a class="navbar-link" href="#about">Locations</a>
+            <a class="navbar-link" href="#contact">Careers</a>
+            <a class="navbar-link" href="#about">About Us</a>
+        </div>
+    </div>
+    
+    <!--Fore Content -->
+    <section class="d-flex align-items-left pt-5 pb-4" id="ForeContent">
+        <div class="mt-5 container">
+            <div class="col-md-12 mt-5">
+                <h2 id="HeadingFore">The Truth <br> about transformation</h2>
+            </div>
+            <div class="col-md-9">
+                <h5 id="Heading5" class="justify-content-right" style="font-weight:500">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores tenetur ipsum distinctio excepturi! Inventore reiciendis quia impedit, facere unde amet minima blanditiis, ducimus repellat aperiam distinctio architecto commodi quam. Distinctio.
+                </h5>
+            </div>
+        </div>
+        
+    </section>
+
+    <!--Fore Image-->
+    <section id="ForeImg" class="img-fluid pt-3">
+            <img class="img-fluid" src="assets/img/Hero-Shot.jpg">
+        </section>
+    <script>
+        // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+            if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+            document.getElementById("navbar").style.padding = "30px 10px";
+            document.getElementById("logo").style.fontSize = "25px";
+            } else {
+            document.getElementById("navbar").style.padding = "80px 10px";
+            document.getElementById("logo").style.fontSize = "35px";
+            }
+        }
+    </script>
+    <script src="assets/js/scripts.js"></script>
+    <script src="assets/dist/js/bootstrap4.min.js"></script>
+    <script src="assets/dist/js/jquery3.3.1.js"></script>
+</body>
+</html>

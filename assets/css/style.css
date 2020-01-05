@@ -37,6 +37,51 @@ h2{
         padding-top:0 !important;
         padding-bottom: 0 !important;
     }
+    #Heading5 {
+        font-size: 20px;
+        line-height: 1.2;
+
+    }
+
+    #HeadingFore {
+        font-size: 30px;
+    }
+
+    #Heading2 {
+        font-size: 27px;
+        padding-top:0px !important;
+
+    }
+
+    #subheading2 {
+        font-size: 21px;
+    }
+
+    #subheading3 {
+        font-size: 21px;
+        color: white !important;
+    }
+
+    .heading-metric {
+        font-size: 23px;
+    }
+
+    .card-text-future1 {
+        font-size: 12px !important;
+    }
+
+    .img-benefits {
+        height:auto;
+    }
+
+    #teamNames {
+        font-size: 10px;
+    }
+
+    #teamRole {
+        font-size: 10px;
+    }
+
 }
 #navbar {
   overflow: hidden;

@@ -14,7 +14,8 @@ h3{
     font-family: Michroma;;
 }
 h1{
-    font-family: Michroma;;
+    font-family: Michroma;
+    font-weight: 500;
 }
 p {
     font-family: Michroma;
@@ -40,6 +41,9 @@ h2{
     .nopadding{
         padding-top:0 !important;
         padding-bottom: 0 !important;
+    }
+    .nopaddingl-left{
+        padding-left:0px !important;
     }
     #Heading5 {
         font-size: 20px;
@@ -131,12 +135,14 @@ h2{
   }
   .solnfloatright{
     float: none;
+    display: block;
 }
 .solnfloatleft{
     float: none;
+    display: block;
 }
 .soln-img{
-    width: 80vw !important;
+    width: 100% !important;
     height: auto;
     display: block;
   
@@ -156,6 +162,12 @@ h2{
     line-height: 25px;
     border-radius: 4px;
     transition: 0.4s;
+}
+.service{
+    min-height:500px;
+}
+.center-align{
+    text-align: left !important;
 }
  
 }
@@ -212,14 +224,14 @@ h2{
     color:white;
 }
 .about-img{
-   width:50vw;
+   width:100%;
    height: auto;
 }
 .solution{
     color:black;
 }
 .soln-img{
-    max-width: 560px;
+    max-width: 100%;
     height: auto;
 }
 .logo {
@@ -227,11 +239,11 @@ h2{
     max-height:50%;
 }
 
-.floors{
+.floorss{
     background: #99b6d3;
 }
 .service{
-    min-height:500px;
+    height:300px;
 }
 
 .list-footer {

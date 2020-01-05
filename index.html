@@ -13,28 +13,55 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Michroma" />
+    <style>
+        a{
+            text-decoration: none !important;
+        }
+    </style>
 
 </head>
 <body>
-    <div id="navbar" class="container">
-        <a href="#default" id="logo" >CompanyLogo</a>
-        <div id="navbar-right">
-            <a class="navbar-link" href="#in">Industries</a>
-            <a class="navbar-link" href="#about">Functions</a>
-            <a class="navbar-link" href="#contact">Featured Insights</a>
-            <a class="navbar-link" href="#about">Locations</a>
-            <a class="navbar-link" href="#contact">Careers</a>
-            <a class="navbar-link" href="#about">About Us</a>
+    <nav class="navbar navbar-expand-lg static-top shadow-sm  navbar-fixed-top navbar-fixed-top" id="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="/" >
+                <!-- <h2 id="logo">Company Logo</h2> -->
+                <img src="assets/img/logo-2.png" alt="Design Place" class="d-inline-block align-top logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="menubar"><i class="fas fa-bars"></i></span>    
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav navbar-right">
+                    <li class="nav-item active">
+                        <a class="navbar-link" href="/">Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="navbar-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="navbar-link" href="#work">Our work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="navbar-link" href="#people">People</a>
+                    </li>
+                    
+                    
+                </ul>
+            </div>
         </div>
-    </div>
-    
+    </nav>
+
     <!--Fore Content -->
     <section class="d-flex align-items-left pt-5 pb-4" id="ForeContent">
         <div class="mt-5 container">
             <div class="col-md-12 mt-5">
                 <h2 id="HeadingFore">The Truth <br> about transformation</h2>
             </div>
-            <div class="col-md-9">
+            <div class="col-md-9 pb-5">
                 <h5 id="Heading5" class="justify-content-right" style="font-weight:500">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores tenetur ipsum distinctio excepturi! Inventore reiciendis quia impedit, facere unde amet minima blanditiis, ducimus repellat aperiam distinctio architecto commodi quam. Distinctio.
                 </h5>
@@ -44,23 +71,209 @@
     </section>
 
     <!--Fore Image-->
-    <section id="ForeImg" class="img-fluid pt-3">
-            <img class="img-fluid" src="assets/img/Hero-Shot.jpg">
-        </section>
+    <section class="mt-5">
+        <div class="parallax"></div>
+    </section>
+
+    <!-- What we do Section -->
+    <section class="wedo">
+        <div class="container pb-5 pt-5">
+            <div class="row">
+                <div class = "col-md-4 pt-5 pb-5">
+                    <h3 class="pt-5 pb-2">
+                        What we do
+                    </h3>
+                    <h5>
+                        We help organizations across the private, public, and social sectors create the change that matters.
+                    </h5>
+                </div>
+                <div class="col-md-8 text-center pt-5 pb-5"> 
+                    <img class="about-img" src="assets/img/aerial-photo-of-buildings-2364788.jpg" alt="">   
+                </div>
+
+            </div>
+        </div>
+    </section>
+  
+    
+    <!-- Services -->
+    <section class="management pb-5 pt-5">
+        <div class="container pt-5 pb-5">
+            <div class="row service ">
+                <div class="col-md-6 col-sm-12">
+                    <img class="soln-img" src="assets/img/management.jpg" alt="">
+                </div>
+                <div class="col-md-6 pl-5 pt-5">
+                    <h1 class="pb-5">
+                        Management services
+                    </h1>
+                    <h5>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore in, ab eaque molestiae ipsum blanditiis aspernatur vero assumenda, dolorem mollitia rem dignissimos neque accusantium eos? Totam consectetur debitis eius corrupti.
+                    </h5>
+                    <h5 class="pt-5" style="color: #99b6d3;">
+                        Learn more
+                    </h5>
+                </div>                
+            </div>
+        </div>
+    </section>
+    <section class="floors pb-5 pt-5">
+        <div class="container service">
+            
+                <div class="col-md-6 solnfloatright">
+                    <img class="soln-img col-md-6 col-sm-12" src="assets/img/agribusines.jpg" alt="">
+                </div>
+                <div class="col-md-6 pt-5 solnfloatleft">
+                    <h1 class="pb-5">
+                        Agribusiness
+                    </h1>
+                    <h5>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore in, ab eaque molestiae ipsum blanditiis aspernatur vero assumenda, dolorem mollitia rem dignissimos neque accusantium eos? Totam consectetur debitis eius corrupti.
+                    </h5>
+                    <h5 class="pt-5" style="color: white;">
+                        Learn more
+                    </h5>
+                </div>                
+            
+        </div>
+    </section>
+    <section class="management pb-5 pt-5">
+        <div class="container service pt-5 pb-5">
+            
+                <div class="col-md-6 solnfloatleft col-sm-12">
+                    <img class="soln-img" src="assets/img/property.png" alt="">
+                </div>
+                <div class="col-md-6 pl-5 pt-5 solnfloatright">
+                    <h1 class="pb-5">
+                        Property Management
+                    </h1>
+                    <h5>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore in, ab eaque molestiae ipsum blanditiis aspernatur vero assumenda, dolorem mollitia rem dignissimos neque accusantium eos? Totam consectetur debitis eius corrupti.
+                    </h5>
+                    <h5 class="pt-5" style="color: #99b6d3;">
+                        Learn more
+                    </h5>
+                </div>                
+            
+        </div>
+    </section>
+    <section class="floors pb-5 pt-5">
+        <div class="container service pt-5 pb-5">
+                <div class="col-md-6 solnfloatright col-sm-12" >
+                    <img class="soln-img float-right col-md-6" src="assets/img/floor.jpg" alt="">
+                </div>
+                <div class="col-md-6 pt-5 solnfloatleft" >
+                    <h1 class="pb-5">
+                        Floors and finishes
+                    </h1>
+                    <h5>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore in, ab eaque molestiae ipsum blanditiis aspernatur vero assumenda, dolorem mollitia rem dignissimos neque accusantium eos? Totam consectetur debitis eius corrupti.
+                    </h5>
+                    <h5 class="pt-5" style="color: white">
+                        Learn more
+                    </h5>
+                </div>                
+        </div>
+    </section>
+
     <script>
         // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
         window.onscroll = function() {scrollFunction()};
         
         function scrollFunction() {
-            if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-            document.getElementById("navbar").style.padding = "30px 10px";
-            document.getElementById("logo").style.fontSize = "25px";
+            if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+            document.getElementById("navbar").style.padding = "10px 10px";
+            document.getElementById("logo").style.fontSize = "15px";
+            document.getElementById("navbar-link").style.fontSize = "12px";
             } else {
-            document.getElementById("navbar").style.padding = "80px 10px";
+            document.getElementById("navbar").style.padding = "30px 30px";
             document.getElementById("logo").style.fontSize = "35px";
+            document.getElementById("navbar-link").style.fontSize = "20px";
             }
         }
     </script>
+
+     <!-- Footer section -->
+    <section>
+
+        <div class="sub_footer p-5">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-4 p-3 sub_footer-col pl-5">
+                        <h5 class="heading-footer">Quick Links</h5>
+                        
+                        <div class="list-footer">
+                            <a href="/"><li>Home</li></a> 
+                            <a href="https://donorbox.org/bridge-to-the-future"><li>Get Involved</li></a>
+                            <a href="launchpad"><li>Our Products</li></a>
+                            <a href="founderschallenge"><li>Our Solutions</li></a>
+                            <a href="why-africa"><li>Team</li></a>
+                        </div>
+
+                    </div>
+                    <div class="col-md-4 p-3 sub_footer-col pl-5">
+                        <h5 class="heading-footer">Our Services</h5>
+                        <div class="list-footer">
+                            <a href="https://www.jengaschool.com/"><li>Management Services</li></a>
+                            <a href="intern-program"><li>Agribusiness</li></a>
+                            <a href="power-speakers"><li>Property Management</li></a>
+                            <a href="https://anchor.fm/ianetwork"><li>Floors and Finishes</li></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 p-3 pl-5">
+                        <h5 class="heading-footer">Let's Talk</h5>
+                        <div class="list-footer">
+                            <li>
+                                <p>
+                                    <span class="footerdescript">
+                                        General:
+                                        <a href="mailto:info@digitalplace" class="email-links">info@digitalplace</a>
+                                    </span>
+                                </p>
+                            </li>
+                            <li>
+                
+                            </li>
+                            
+                        </div>
+                        <div class=" footer-location">
+                            <h5 class="heading-footer mt-5">Offices</h5>
+                            <a href="https://goo.gl/maps/JeuSXqSsCrR6uRwZA" target="_blank" id="maps">Riara corporate suites, Riara road</a> 
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <footer class="footer d-flex align-items-center justify-content-center">
+            <div class="container">
+                <div class="pt-5 pb-5">
+                    <div class="text-center" style="color: #909090">
+                        <p><span style="color:#e9443c">Digital</span><span style="color:#496ea9">Place</span></p>
+
+                        <div class="text-center" style="color: #909090; font-size: .8em">
+                            <!-- <p>Changing the african narrative.</p>   -->
+                            <p>2019</p> 
+                        </div>
+                        
+                    </div>
+
+                    <div class="text-center">
+                        <a href="" class="icons"><i class="fab fa-twitter p-2"></i></a>
+                       
+                        <a href="" class="icons"><i class="fab fa-linkedin p-2"></i></a>
+                        <a href="" class="icons"><i class="fab fa-youtube p-2"></i></a>
+                    </div>
+    
+                </div>
+            </div>
+        </footer>
+    <!-- Counter Up script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    </section>
     <script src="assets/js/scripts.js"></script>
     <script src="assets/dist/js/bootstrap4.min.js"></script>
     <script src="assets/dist/js/jquery3.3.1.js"></script>
